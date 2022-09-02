@@ -27,4 +27,13 @@
 
 NAME         READY   STATUS             RESTARTS   AGE
 ml           1/1     Running            0          62s
-kubectl port-forward ml  8000:80   
+kubectl port-forward ml  8000:80
+
+=========Output of ./make_prediction.sh
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
+
