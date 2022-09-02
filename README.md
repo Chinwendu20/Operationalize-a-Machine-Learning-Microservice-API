@@ -3,7 +3,7 @@
 
 # A summary of the project
 
-The main point of the project is to operationalize a pretrained sklearn model designed to predict housing prices in Boston according to several features, such as average rooms in a home and data about highway access, teacher-to-pupil ratios, and so on. You can read more about the data, [here]( https://www.kaggle.com/c/boston-housing). This project tests ones ability to operationalize a Python flask app. The provided file, app.py— serves out predictions (inference) about housing prices through API calls.
+The main point of the project is to operationalize a pretrained sklearn model designed to predict housing prices in Boston according to several features, such as average rooms in a home and data about highway access, teacher-to-pupil ratios, and so on. You can read more about the data, [here]( https://www.kaggle.com/c/boston-housing). This project tests ones ability to operationalize an application. The provided file, app.py— serves out predictions (inference) about housing prices through API calls.
 
 # Instructions on how to run the Python scripts and web app.
 
