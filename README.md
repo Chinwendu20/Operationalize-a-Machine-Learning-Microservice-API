@@ -1,5 +1,5 @@
 
-[![<Chinwendu20>](https://circleci.com/<gh>/<Chinwendu20>/<Operationalize-a-Machine-Learning-Microservice-API>.svg?style=svg)](<#>)
+[![<Chinwendu20>](https://circleci.com/gh/Chinwendu20/Operationalize-a-Machine-Learning-Microservice-API.svg?style=svg)](#)
 
 # A summary of the project
 
