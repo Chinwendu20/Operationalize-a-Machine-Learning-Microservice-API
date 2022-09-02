@@ -1,0 +1,32 @@
+Step 6/6 : CMD ["python", "app.py"]
+ ---> Running in 93f842d2000f
+Removing intermediate container 93f842d2000f
+ ---> d77884a68c36
+Successfully built d77884a68c36
+Successfully tagged chinwendu20/udacity:v1
+REPOSITORY                    TAG             IMAGE ID       CREATED                  SIZE
+chinwendu20/udacity           v1              d77884a68c36   Less than a second ago   1.3GB
+gcr.io/k8s-minikube/kicbase   v0.0.33         b7ab23e98277   4 weeks ago              1.14GB
+python                        3.7.3-stretch   34a518642c76   3 years ago              929MB
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 150-182-120
+[2022-09-02 05:04:35,429] INFO in app: JSON payload: 
+{'CHAS': {'0': 0}, 'RM': {'0': 6.575}, 'TAX': {'0': 296.0}, 'PTRATIO': {'0': 15.3}, 'B': {'0': 396.9}, 'LSTAT': {'0': 4.98}}
+[2022-09-02 05:04:35,440] INFO in app: Inference payload DataFrame: 
+   CHAS     RM    TAX  PTRATIO      B  LSTAT
+0     0  6.575  296.0     15.3  396.9   4.98
+[2022-09-02 05:04:35,447] INFO in app: Scaling Payload: 
+   CHAS     RM    TAX  PTRATIO      B  LSTAT
+0     0  6.575  296.0     15.3  396.9   4.98
+[2022-09-02 05:04:35,450] INFO in app: scaled_payload: 
+[[0. 0. 0. 0. 0. 0.]]
+[2022-09-02 05:04:35,450] INFO in app: prediction: 
+[20.35373177134412]
+172.17.0.1 - - [02/Sep/2022 05:04:35] "POST /predict HTTP/1.1" 200 -
